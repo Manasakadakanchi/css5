@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            border: 2px solid black;
+            height: 85vh;
+            width: 40vw;
+            border-radius: 20px;
+            margin: auto;
+            background-color: rgb(214, 247, 236);
+        }
+
+        .child1{
+            position: absolute;
+            border: 1px solid black;
+            height: 10vh;
+            width: 40vw;
+            border-radius: 14px 14px 0px 0px;
+            background-color: lightgreen;
+            /* position: relative; */
+            /* display: inline-block; */    
+        }
+        
+        .child2{
+            /* border: 1px solid black; */
+            height: 60vh;
+            width: 40vw;
+            overflow: auto;
+            scrollbar-width: none; 
+        }
+        .left{
+            height: 5vh;
+            width: 30vh;
+            background-color:lightseagreen;
+            /* color: white; */
+            border-radius: 5px;    
+        }
+        .right {
+            text-align: right;
+        }
+
+        span{
+            height:5vh;
+            width:30vw;
+            background-color: aqua; 
+            padding: 10px;
+            border-radius: 7px;
+        }
+
+        #image1{
+            position: relative;
+            top: 10px;
+            left: 25px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .name{
+            position: relative;
+            top: -50px;
+            left: 100px;
+        }
+
+        .date{
+            text-align: center;
+            /* top:10px; */
+            background-color: grey;
+        }
+
+        .icon {
+            margin-left: 100px;
+            position:relative;
+            top: -80px;
+            left: 300px;
+            
+        }
+
+        #button1{
+            width: 50px;
+            height: 15px;
+            /* padding-bottom: 20px; */
+            /* margin-bottom: 10px; */
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1" >
+            <img id="image1" src="./download.jpg" height="80px">
+            <h2 class="name">Honey</h2>
+            <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        
+
+    <div class="child2">
+
+        <div class="date">23 jan</div>
+        <br>
+
+        <div class="left">hiii</div>
+        
+        <div class="right"><span>hloo</span></div>
+
+        <div class="left">how are you</div>
+
+        <div class="right"><span>fine  what about you</span></div>
+
+        <div class="left">im good</div>
+        <div class="right"><span> m chestunav</span></div>
+
+        <div class="left">ntg nuvu</div>
+        <div class="right"><span> m ledhu raa</span></div>
+
+        <div class="left">thinava</div>
+        <div class="right"><span>ha nuvu</span></div>
+
+        <div class="left"> ha thinna ra</div>
+        <div class="right"><span>ok bye</span></div>
+
+        <div class="left">bye</div>
+      
+
+
+
+
+
+    </div>
+    <center>
+    <form>
+        <br>
+        
+        <input type="text" placeholder="Type a message..." >
+            <button><i id="button1" class="fa-solid fa-paper-plane"></i></button>
+        
+    </form>
+    </center>
+
+        
+
+
+    </div>
+    
+</body>
+</html>
